@@ -10,48 +10,34 @@ This repository presents a structured analysis and design of a conceptual system
 
 The project demonstrates how software systems are analysed **before implementation**, using diagrams and documentation to model system behaviour, structure, and data interactions.
 
+#### UML Diagrams Included
+| Diagram Name| Purpose |
+|--------------|--------|
+| System Sequence Diagram | Illustrates interactions between the user and the system |
+| Domain Class Model | Represents the structural relationships between system entities |
+| Activity Diagram | Models workflow and business process logic |
+| State Machine Diagram | Describes lifecycle states of a painting job |
+| CRUD Matrix | Maps system operations to data entities |
 
-## Key Skills Demonstrated
+## System Overview
 
-- Systems analysis and requirements interpretation
-- UML modelling and diagram design
-- Structural system modelling
-- Behavioural workflow modelling
-- System interaction modelling
-- CRUD analysis
-- User Acceptance Test (UAT) planning
-- Software design documentation
+The system design is represented using several UML modelling techniques to describe structure, behaviour, and system interactions.
 
-## Repository Structure
-```text
-Systems-Analysis-and-Design-UML-Case-Study/
-│
-├── docs/
-│   ├── ICT284 Systems Analysis and Design Assessment 2 - Styverson Ng.pdf
-│   └── ICT284 Assignment 2 Report.pdf
-│
-├── diagrams/
-│   ├── Domain Class Model/
-│      └── Domain Class Model.png/
-│   ├── Activity Diagram/
-│      └── Activity Diagram - Print Credit Payment Report.png/
-│   ├── State Machine Diagram/
-│      ├── State Machine Diagram - Painting Job Legend.png/
-│      └── State Machine Diagram - Painting Job.png/
-│   └── System Sequence Diagram/
-│      └── System Sequence Diagram - Provide Feedback.png/
-│
-├── testing/
-│   ├── User Acceptance Test Plan 1.png
-│   ├── User Acceptance Test Plan 2.png
-│   ├── User Acceptance Test Plan.xlsx
-│   └── User Acceptance Test Plan.pdf
-│
-├── analysis/
-    └── CRUD Matrix.png
-```
+The diagrams included in this repository model the lifecycle of a painting job system, including authentication, job selection, feedback submission, and system updates.
 
-The repository is organised to separate system design artefacts, documentation, analysis materials, and testing plans to mirror a simplified software development lifecycle structure.
+<img width="4157" height="3176" alt="System Sequence Diagram - Provide Feedback" src="https://github.com/user-attachments/assets/8962795d-70bf-49b1-aeae-63a49ca9e802" />
+
+The overall system workflow for providing feedback on a completed painting job can be summarised as follows:
+
+1. The user logs into the system using valid credentials.
+2. The system verifies the login details.
+3. Upon successful authentication, the user selects a completed job.
+4. The system retrieves and displays the job details.
+5. The user fills in a feedback form.
+6. The system validates the submitted feedback.
+7. The system confirms successful submission.
+8. The painter’s profile is updated with the feedback information.
+9. The painter is notified of the submitted feedback.
 
 ## Domain Class Model
 
@@ -86,21 +72,7 @@ State machine diagrams help developers understand how system objects behave over
     <img width="731.25" height="278.7" alt="State Machine Diagram - Painting Job Legend" src="https://github.com/user-attachments/assets/3d769e46-881b-474a-9d80-07b33ba609d3" />
 </p>
 
-## System Sequence Diagram – Provide Feedback
 
-The **System Sequence Diagram (SSD)** models the interaction between the user and the system when submitting feedback for a completed painting job.
-
-The diagram illustrates the following system interactions:
-
-1. User authentication through login verification
-2. Retrieval and display of selected job details
-3. Submission and validation of a feedback form
-4. Confirmation of feedback submission
-5. System updates to the painter's profile and notification process
-
-This diagram highlights how system components collaborate to process user feedback.
-
-<img width="4157" height="3176" alt="System Sequence Diagram - Provide Feedback" src="https://github.com/user-attachments/assets/8962795d-70bf-49b1-aeae-63a49ca9e802" />
 
 
 ## CRUD Matrix
@@ -137,17 +109,36 @@ The full UAT documentation is available in:
 - testing/User Acceptance Test Plan.xlsx
 - testing/User Acceptance Test Plan.pdf
 
+## Repository Structure
+```text
+Systems-Analysis-and-Design-UML-Case-Study/
+│
+├── docs/
+│   ├── ICT284 Systems Analysis and Design Assessment 2 - Styverson Ng.pdf
+│   └── ICT284 Assignment 2 Report.pdf
+│
+├── diagrams/
+│   ├── Domain Class Model/
+│      └── Domain Class Model.png/
+│   ├── Activity Diagram/
+│      └── Activity Diagram - Print Credit Payment Report.png/
+│   ├── State Machine Diagram/
+│      ├── State Machine Diagram - Painting Job Legend.png/
+│      └── State Machine Diagram - Painting Job.png/
+│   └── System Sequence Diagram/
+│      └── System Sequence Diagram - Provide Feedback.png/
+│
+├── testing/
+│   ├── User Acceptance Test Plan 1.png
+│   ├── User Acceptance Test Plan 2.png
+│   ├── User Acceptance Test Plan.xlsx
+│   └── User Acceptance Test Plan.pdf
+│
+├── analysis/
+    └── CRUD Matrix.png
+```
 
-
-
-
-
-
-
-
-
-
-
+The repository is organised to separate system design artefacts, documentation, analysis materials, and testing plans to mirror a simplified software development lifecycle structure.
 
 
 ## 🖋️ Author
