@@ -116,6 +116,9 @@ CRUD analysis is commonly used during system design to validate database interac
 
 The matrix for this project can be found in:
 
+<img width="881" height="1028" alt="CRUD Matrix" src="https://github.com/user-attachments/assets/2730b0ca-a061-49f4-85a6-af2d273ec6ac" />
+
+
 ## User Acceptance Testing (UAT)
 
 The **User Acceptance Test Plan** defines test scenarios used to validate that the system meets the intended user requirements.
