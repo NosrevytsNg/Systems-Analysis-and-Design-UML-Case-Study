@@ -27,23 +27,28 @@ The project demonstrates how software systems are analysed **before implementati
 Systems-Analysis-and-Design-UML-Case-Study/
 │
 ├── docs/
-│   ├── ICT284 Assignment 2 Report.docx
-│   ├── ICT284 Assignment 2 Report.pdf
-│   ├── ICT284 Assignment 2 Brief.pdf
-│   └── ICT284 Assignment 2 Rubric.pdf
+│   ├── ICT284 Systems Analysis and Design Assessment 2 - Styverson Ng.pdf
+│   └── ICT284 Assignment 2 Report.pdf
 │
 ├── diagrams/
-│   ├── domain-class-model/
-│   ├── activity-diagram/
-│   ├── state-machine-diagram/
-│   └── system-sequence-diagram/
+│   ├── Domain Class Model/
+│      └── Domain Class Model.png/
+│   ├── Activity Diagram/
+│      └── Activity Diagram - Print Credit Payment Report.png/
+│   ├── State Machine Diagram/
+│      ├── State Machine Diagram - Painting Job Legend.png/
+│      └── State Machine Diagram - Painting Job.png/
+│   └── System Sequence Diagram/
+│      └── System Sequence Diagram - Provide Feedback.png/
 │
 ├── testing/
+│   ├── User Acceptance Test Plan 1.png
+│   ├── User Acceptance Test Plan 2.png
 │   ├── User Acceptance Test Plan.xlsx
 │   └── User Acceptance Test Plan.pdf
 │
 ├── analysis/
-    └── CRUD Matrix.pdf
+    └── CRUD Matrix.png
 ```
 
 The repository is organised to separate system design artefacts, documentation, analysis materials, and testing plans to mirror a simplified software development lifecycle structure.
