@@ -59,7 +59,7 @@ The **Domain Class Model** captures the core entities, attributes, and relations
 
 This model is useful for understanding the data structure of the system and guiding database or object-oriented design during later implementation phases.
 
-<img width="955" height="930" alt="Domain Class Model" src="https://github.com/user-attachments/assets/e1cce637-1f4b-45b6-b14e-dfd7f0348bba" />
+<img width="716.25" height="697.5" alt="Domain Class Model" src="https://github.com/user-attachments/assets/e1cce637-1f4b-45b6-b14e-dfd7f0348bba" />
 
 
 ## Activity Diagram – Print Credit Payment Report
