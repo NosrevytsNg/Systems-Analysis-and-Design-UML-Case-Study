@@ -71,7 +71,7 @@ The **Activity Diagram** illustrates the workflow involved in generating a credi
 Activity diagrams are useful for modelling business processes and system workflows before implementation.
 
 <p align="center">
-    <img width="1411" height="2168" alt="Activity Diagram - Print Credit Payment Report" src="https://github.com/user-attachments/assets/8f2f5d75-106e-4a0f-8e71-77cf2593efd7" />
+    <img width="705.5" height="1084" alt="Activity Diagram - Print Credit Payment Report" src="https://github.com/user-attachments/assets/8f2f5d75-106e-4a0f-8e71-77cf2593efd7" />
 </p>
 
 ## State Machine Diagram – Painting Job Lifecycle
