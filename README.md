@@ -68,7 +68,8 @@ The **Activity Diagram** illustrates the workflow involved in generating a credi
 
 Activity diagrams are useful for modelling business processes and system workflows before implementation.
 
-![Activity Diagram – Print Credit Payment Report](diagrams/activity-diagram/Activity%20Diagram%20-%20Print%20Credit%20Payment%20Report.png)
+<img width="2822" height="4336" alt="Activity Diagram - Print Credit Payment Report" src="https://github.com/user-attachments/assets/8f2f5d75-106e-4a0f-8e71-77cf2593efd7" />
+
 
 ## State Machine Diagram – Painting Job Lifecycle
 
@@ -78,7 +79,10 @@ Each state represents a stage of the job process, while transitions occur when s
 
 State machine diagrams help developers understand how system objects behave over time and how state changes are handled.
 
-![State Machine Diagram – Painting Job](diagrams/state-machine-diagram/State%20Machine%20Diagram%20-%20Painting%20Job.png)
+<img width="5850" height="6225" alt="State Machine Diagram - Painting Job" src="https://github.com/user-attachments/assets/befc8c73-2fad-4d2b-839a-9995ba4e53a3" />
+
+<img width="711" height="271" alt="State Machine Diagram - Painting Job Legend" src="https://github.com/user-attachments/assets/3d769e46-881b-474a-9d80-07b33ba609d3" />
+
 
 ## System Sequence Diagram – Provide Feedback
 
@@ -94,7 +98,8 @@ The diagram illustrates the following system interactions:
 
 This diagram highlights how system components collaborate to process user feedback.
 
-![System Sequence Diagram – Provide Feedback](diagrams/system-sequence-diagram/Provide%20Feedback%20-%20System%20Sequence%20Diagram.png)
+<img width="4157" height="3176" alt="System Sequence Diagram - Provide Feedback" src="https://github.com/user-attachments/assets/8962795d-70bf-49b1-aeae-63a49ca9e802" />
+
 
 ## CRUD Matrix
 
