@@ -81,11 +81,10 @@ The **State Machine Diagram** models the lifecycle of a painting job as it trans
 Each state represents a stage of the job process, while transitions occur when specific events or conditions are triggered.
 
 State machine diagrams help developers understand how system objects behave over time and how state changes are handled.
-
-<img width="731.25" height="778.125" alt="State Machine Diagram - Painting Job" src="https://github.com/user-attachments/assets/befc8c73-2fad-4d2b-839a-9995ba4e53a3" />
-
-<img width="731.25" height="278.7" alt="State Machine Diagram - Painting Job Legend" src="https://github.com/user-attachments/assets/3d769e46-881b-474a-9d80-07b33ba609d3" />
-
+<p align="center">
+    <img width="731.25" height="778.125" alt="State Machine Diagram - Painting Job" src="https://github.com/user-attachments/assets/befc8c73-2fad-4d2b-839a-9995ba4e53a3" />
+    <img width="731.25" height="278.7" alt="State Machine Diagram - Painting Job Legend" src="https://github.com/user-attachments/assets/3d769e46-881b-474a-9d80-07b33ba609d3" />
+</p>
 
 ## System Sequence Diagram – Provide Feedback
 
