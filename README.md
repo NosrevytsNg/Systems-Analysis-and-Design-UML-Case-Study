@@ -117,9 +117,9 @@ This matrix helps verify that all necessary data interactions are accounted for 
 CRUD analysis is commonly used during system design to validate database interaction requirements.
 
 The matrix for this project can be found in:
-
-<img width="881" height="1028" alt="CRUD Matrix" src="https://github.com/user-attachments/assets/2730b0ca-a061-49f4-85a6-af2d273ec6ac" />
-
+<p align="center">
+    <img width="881" height="1028" alt="CRUD Matrix" src="https://github.com/user-attachments/assets/2730b0ca-a061-49f4-85a6-af2d273ec6ac" />
+</p>
 
 ## User Acceptance Testing (UAT)
 
