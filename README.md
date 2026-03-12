@@ -82,7 +82,7 @@ Each state represents a stage of the job process, while transitions occur when s
 
 State machine diagrams help developers understand how system objects behave over time and how state changes are handled.
 
-<img width="1462.5" height="1556.25" alt="State Machine Diagram - Painting Job" src="https://github.com/user-attachments/assets/befc8c73-2fad-4d2b-839a-9995ba4e53a3" />
+<img width="731.25" height="778.125" alt="State Machine Diagram - Painting Job" src="https://github.com/user-attachments/assets/befc8c73-2fad-4d2b-839a-9995ba4e53a3" />
 
 <img width="711" height="271" alt="State Machine Diagram - Painting Job Legend" src="https://github.com/user-attachments/assets/3d769e46-881b-474a-9d80-07b33ba609d3" />
 
